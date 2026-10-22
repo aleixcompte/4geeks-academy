@@ -1,18 +1,7 @@
-# Progreso académico
+# Progreso
 
-Los estados se registran con evidencias y sin atribuir validaciones inexistentes.
-
-| Estado | Significado |
+| Actividad | Estado |
 | --- | --- |
-| Pendiente | Sin iniciar |
-| En curso | Trabajo en elaboración |
-| Funcional | Comprobaciones locales o manuales satisfactorias |
-| Entregado | URL o evidencia de entrega |
-| Validado | Confirmación de evaluación académica |
+| Todo List CLI (Python) | Código publicado y probado manualmente. Entrega en el campus sin confirmar. |
 
-## Registro inicial
-
-- **Todo List CLI (Python):** funcional en Codespaces, persistencia CSV demostrada entre sesiones; entrega y pruebas automáticas pendientes.
-- **Ejercicios introductorios de Python:** actividades realizadas durante el aprendizaje; la asignación a los módulos oficiales y la documentación de pruebas se completarán progresivamente.
-
-No se han registrado calificaciones ni certificaciones.
+Este registro se actualiza cuando existan nuevos resultados comprobados.
