@@ -29,11 +29,27 @@ No se requieren dependencias externas.
 
 ## Estado de comprobación
 
-- Sintaxis Python: PASS (verificado en Codespaces).
-- Alta, listado, eliminación y persistencia CSV: verificados manualmente.
-- Pruebas automáticas: no se identificaron archivos de pruebas en la plantilla utilizada.
-- Código fuente publicado en este directorio: **sí**, a partir de la versión compartida y probada en Codespaces.
-- Validación académica: **pendiente**.
+**Verificación funcional manual completada (22 de octubre de 2026)** sobre una copia nueva clonada desde GitHub en Codespaces.
+
+| Prueba | Resultado |
+| --- | --- |
+| Clonar repositorio y verificar sintaxis | PASS |
+| Iniciar aplicación sin `todos.csv` | PASS |
+| Mostrar lista vacía | PASS |
+| Rechazar eliminación con índice inexistente | PASS |
+| Rechazar opción de menú no válida | PASS |
+| Añadir y listar una tarea | PASS |
+| Guardar la tarea en `todos.csv` | PASS |
+| Reiniciar y recuperar la tarea | PASS |
+| Eliminar la tarea por posición | PASS |
+| Comprobar lista vacía y guardar | PASS |
+| `git status --short` sin cambios pendientes | PASS |
+
+**Pruebas automáticas oficiales:** no ejecutadas; no se encontraron archivos de test en la plantilla utilizada.
+
+**Entrega al profesorado:** pendiente. **Validación académica:** pendiente.
+
+Se trata de pruebas manuales de funcionamiento, no de una calificación o certificación oficial.
 
 ## Archivos
 
