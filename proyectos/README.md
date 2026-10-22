@@ -1,17 +1,7 @@
-# Catálogo de proyectos y entregas
+# Proyectos
 
-Índice transversal para que el profesorado pueda localizar rápidamente cada práctica, su estado y su repositorio de entrega.
+| Proyecto | Acceso | Estado |
+| --- | --- | --- |
+| Todo List CLI (Python) | [Ver código y explicación](../formaciones/flex/proyectos/todo-list-cli/README.md) | Funciona en las pruebas manuales; entrega al campus sin confirmar |
 
-| Trabajo | Lenguaje | Evidencia disponible | Entrega |
-| --- | --- | --- | --- |
-| [Todo List CLI](../formaciones/flex/proyectos/todo-list-cli/README.md) | Python | Pruebas funcionales manuales completas sobre clon de GitHub (22/10/2026); sintaxis PASS | Código publicado; entrega y validación académica pendientes |
-| Generador de excusas CLI | Python | Enunciado revisado y solución preparada en el aprendizaje | Entrega no verificada |
-
-## Criterios de publicación
-
-1. Los proyectos con entrega individual tendrán un repositorio propio y un enlace desde esta tabla.
-2. Cada README de proyecto explicará objetivo, ejecución, comprobaciones y estado real.
-3. **Funcional**, **entregado** y **validado** son estados diferentes; no se confunden.
-4. Los archivos de datos locales y la información sensible no deben publicarse automáticamente.
-
-[Organización general](../docs/ORGANIZACION.md)
+Los proyectos se organizan dentro de este repositorio por formación. Si una actividad exige un repositorio independiente, se comprobará ese requisito antes de enviarla.
