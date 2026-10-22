@@ -1,43 +1,21 @@
-# 4Geeks Academy · Formación y proyectos
+# Formación en 4Geeks Academy
 
-**Repositorio académico personal** para centralizar todas las formaciones realizadas en **4Geeks Academy**: programa FLEX, formación de Ingeniería de IA y futuros itinerarios, cursos y especializaciones.
+Aquí organizo mis ejercicios y proyectos de 4Geeks Academy. El repositorio reúne el programa FLEX, Ingeniería de IA y las formaciones que vaya realizando.
 
-Este espacio está diseñado para consultar el progreso formativo y facilitar al profesorado el acceso a ejercicios, proyectos, evidencias y repositorios de entrega.
+## Formaciones
 
-## Explorar las formaciones
+- [Programa FLEX](formaciones/flex/README.md)
+- [Ingeniería de IA](formaciones/ingenieria-ia/README.md)
+- [Otras formaciones](formaciones/otras/README.md)
 
-| Área | Acceso | Contenido |
-| --- | --- | --- |
-| **Programa FLEX** | [Ver formación](formaciones/flex/README.md) | Módulos y actividades del itinerario FLEX |
-| **Ingeniería de IA** | [Ver formación](formaciones/ingenieria-ia/README.md) | Programa principal de Ingeniería de Inteligencia Artificial |
-| **Otras formaciones** | [Ver índice](formaciones/otras/README.md) | Próximos cursos y especializaciones de 4Geeks |
-| **Todas las formaciones** | [Índice general](formaciones/README.md) | Navegación por programas |
+## Proyectos y seguimiento
 
-## Acceso rápido para profesores
+- [Proyectos](proyectos/README.md)
+- [Progreso](progreso/README.md)
+- [Apuntes y recursos](recursos/README.md)
 
-- **[Catálogo de proyectos y entregas](proyectos/README.md):** qué se ha construido, qué se ha probado y dónde está cada entrega.
-- **[Seguimiento académico](progreso/README.md):** estado verificable de cada actividad, sin atribuir calificaciones no confirmadas.
-- **[Criterios de organización](docs/ORGANIZACION.md):** convenciones de carpetas, documentación y evidencias.
-- **[Recursos y apuntes](recursos/README.md):** material propio de apoyo.
+### Proyecto disponible
 
-## Actividad inicial registrada
+[Todo List CLI en Python](formaciones/flex/proyectos/todo-list-cli/README.md): aplicación de terminal para añadir, listar, eliminar, guardar y recuperar tareas.
 
-| Trabajo | Tecnología | Estado documentado |
-| --- | --- | --- |
-| Todo List CLI | Python y CSV | Funcional mediante pruebas manuales; publicación de entrega pendiente |
-| Generador de excusas CLI | Python | Ejercicio abordado; entrega no confirmada |
-| Fundamentos de Python | Python | Contenidos y prácticas trabajados durante el aprendizaje |
-
-**Nota:** Los estados de finalización oficiales de los cursos se incorporarán únicamente cuando estén verificados en el campus. La asignación definitiva de ejercicios a FLEX o Ingeniería de IA se hará siguiendo el temario oficial.
-
-## Principios
-
-- Separar los programas académicos y mantener un índice único.
-- Documentar cómo ejecutar y comprobar cada proyecto.
-- Utilizar repositorios individuales cuando la academia exija una URL de entrega específica.
-- No incorporar código o información confidencial de proyectos profesionales ajenos a la formación.
-- Mantener una estructura ampliable para futuros cursos, sin rehacer la organización.
-
----
-
-Repositorio personal de aprendizaje. No es un repositorio oficial de 4Geeks Academy.
+*Este es un repositorio personal de formación, no un repositorio oficial de 4Geeks Academy.*
