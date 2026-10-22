@@ -32,12 +32,12 @@ No se requieren dependencias externas.
 - Sintaxis Python: PASS (verificado en Codespaces).
 - Alta, listado, eliminación y persistencia CSV: verificados manualmente.
 - Pruebas automáticas: no se identificaron archivos de pruebas en la plantilla utilizada.
-- Publicación del código en este directorio: **pendiente**.
+- Código fuente publicado en este directorio: **sí**, a partir de la versión compartida y probada en Codespaces.
 - Validación académica: **pendiente**.
 
 ## Archivos
 
-- `app.py`: programa principal, pendiente de incorporar.
+- `app.py`: programa principal incluido.
 - `todos.csv`: archivo local generado al guardar; no es necesario publicarlo con datos de uso.
 
 [Volver a FLEX](../../README.md) · [Catálogo de proyectos](../../../../proyectos/README.md)
