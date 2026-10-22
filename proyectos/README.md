@@ -4,7 +4,7 @@
 
 | Trabajo | Lenguaje | Evidencia disponible | Entrega |
 | --- | --- | --- | --- |
-| Todo List CLI | Python | Alta, listado, eliminación y guardado/carga CSV verificados manualmente; sintaxis PASS | Repositorio de entrega pendiente |
+| [Todo List CLI](../formaciones/flex/proyectos/todo-list-cli/README.md) | Python | Alta, listado, eliminación y guardado/carga CSV verificados manualmente; sintaxis PASS | Código publicado aquí; validación académica pendiente |
 | Generador de excusas CLI | Python | Enunciado revisado y solución preparada en el aprendizaje | Entrega no verificada |
 
 ## Criterios de publicación
