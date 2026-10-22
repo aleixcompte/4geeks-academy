@@ -1,59 +1,31 @@
-# Todo List CLI · Python
+# Lista de tareas en Python
 
-**Proyecto práctico de 4Geeks Academy**
+Este proyecto es una lista de tareas que funciona desde la terminal. Puedo añadir tareas, consultar las que tengo pendientes y eliminar cualquiera indicando su número.
 
-> Ubicación académica provisional dentro de FLEX; se ajustará si el campus asigna el proyecto a otro programa o módulo.
-
-## Objetivo
-
-Aplicación de consola para registrar, listar y eliminar tareas numeradas, con persistencia local mediante `todos.csv`.
+Las tareas se guardan en `todos.csv` para poder recuperarlas cuando vuelva a abrir el programa.
 
 ## Funciones
 
-- `add_one_task(title)`: añadir una tarea.
-- `print_list()`: consultar tareas numeradas.
-- `delete_task(number_to_delete)`: eliminar una tarea por número.
-- `save_todos()`: guardar las tareas en CSV.
-- `load_todos()`: cargar las tareas desde CSV.
-- Menú interactivo con múltiples operaciones.
+- `add_one_task(title)`: añade una tarea.
+- `print_list()`: muestra todas las tareas numeradas.
+- `delete_task(number_to_delete)`: elimina la tarea seleccionada por su posición.
+- `save_todos()`: guarda la lista en `todos.csv`.
+- `load_todos()`: carga las tareas guardadas.
 
-## Ejecución
+El programa tiene un menú para utilizar estas opciones sin tener que modificar el código. No incluye edición de tareas, tal como indica la práctica.
 
-Desde esta carpeta:
+## Cómo ejecutarlo
+
+Con Python instalado, abro la terminal en esta carpeta y ejecuto:
 
 ```bash
 python3 app.py
 ```
 
-No se requieren dependencias externas.
+Después elijo una opción del menú, del 1 al 6. Al salir, la lista se guarda automáticamente.
 
-## Estado de comprobación
+## Comprobación
 
-**Verificación funcional manual completada (22 de octubre de 2026)** sobre una copia nueva clonada desde GitHub en Codespaces.
+He probado añadir tareas, mostrarlas, eliminarlas y guardarlas. También he cerrado el programa, lo he vuelto a abrir y he comprobado que recupera los datos del CSV. He hecho las pruebas desde una copia descargada de GitHub.
 
-| Prueba | Resultado |
-| --- | --- |
-| Clonar repositorio y verificar sintaxis | PASS |
-| Iniciar aplicación sin `todos.csv` | PASS |
-| Mostrar lista vacía | PASS |
-| Rechazar eliminación con índice inexistente | PASS |
-| Rechazar opción de menú no válida | PASS |
-| Añadir y listar una tarea | PASS |
-| Guardar la tarea en `todos.csv` | PASS |
-| Reiniciar y recuperar la tarea | PASS |
-| Eliminar la tarea por posición | PASS |
-| Comprobar lista vacía y guardar | PASS |
-| `git status --short` sin cambios pendientes | PASS |
-
-**Pruebas automáticas oficiales:** no ejecutadas; no se encontraron archivos de test en la plantilla utilizada.
-
-**Entrega al profesorado:** pendiente. **Validación académica:** pendiente.
-
-Se trata de pruebas manuales de funcionamiento, no de una calificación o certificación oficial.
-
-## Archivos
-
-- `app.py`: programa principal incluido.
-- `todos.csv`: archivo local generado al guardar; no es necesario publicarlo con datos de uso.
-
-[Volver a FLEX](../../README.md) · [Catálogo de proyectos](../../../../proyectos/README.md)
+No he ejecutado pruebas automáticas de la academia.
